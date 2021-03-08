@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+
+    height: 5vh;
+    background-color: aqua;
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    a {
+        display: flex;
+        text-decoration: none;
+        color: #111;
+        padding: 10px;
+
+        &:hover {
+            background-color: blue;
+        }
+    }
+}
+
+main {
+    height: 95vh;
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: blue;
+    position: static;
+    bottom: 0;
+    height: 5vh;
+    text-align: end;
+}
