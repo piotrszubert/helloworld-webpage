@@ -1,13 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 5vh;
-  background-color: aqua;
+  background-color: #0088ff;
 }
 
 nav ul {
@@ -20,29 +29,93 @@ nav ul {
           justify-content: center;
 }
 
-nav a {
+nav ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav a {
   text-decoration: none;
-  color: #111;
-  padding: 10px;
+  color: #fff;
+  padding: 8px;
+  -webkit-transition: .2s .1s;
+  transition: .2s .1s;
 }
 
 nav a:hover {
-  background-color: blue;
+  border-bottom: 2px solid #fff;
 }
 
 main {
-  height: 95vh;
-  background-color: blueviolet;
+  background-color: #7D26CD;
 }
 
 footer {
-  background-color: blue;
+  background-color: #0088ff;
   position: static;
   bottom: 0;
   height: 5vh;
   text-align: end;
+  border-top: 2px solid #fff;
+}
+
+.wave {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.landing {
+  height: 95vh;
+}
+
+.landing .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.landing .wrapper h1 {
+  margin-top: 10vh;
+  color: #fff;
+  font-size: 5rem;
+}
+
+.landing .wrapper button {
+  padding: 20px;
+  width: 200px;
+  border-radius: 40px;
+  border: none;
+  color: #7D26CD;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-top: 15vh;
+  cursor: pointer;
+  -webkit-transition: .5s .2s;
+  transition: .5s .2s;
+}
+
+.landing .wrapper button:hover {
+  color: #0088ff;
+  letter-spacing: 2px;
+}
+
+.info {
+  margin-top: -1px;
+  height: 98vh;
 }
 /*# sourceMappingURL=style.css.map */

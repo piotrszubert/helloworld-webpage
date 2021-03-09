@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hello World</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
         <ul>
@@ -15,19 +17,29 @@
             <li><a href="#">link3</a></li>
         </ul>
     </nav>
- <!--   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,160L48,181.3C96,203,192,245,288,229.3C384,213,480,139,576,106.7C672,75,768,85,864,106.7C960,128,1056,160,1152,192C1248,224,1344,256,1392,272L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
- -->
     <main>
         <section class="landing">
-            Landing 
+            <div class="wrapper">
+            <h1>Hello World</h1>
+            <button onclick="location.href='#info-section'"> more </button>
+            </div>
+            <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M-0.00,49.85 C150.00,149.60 349.20,-49.87 500.00,49.85 L500.00,149.60 L-0.00,149.60 Z"
+                    style="stroke: none; fill: #08f;"></path>
+            </svg></div>
+        </section>
+        <section class="info" id="info-section">
+            
+<div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.85 C150.00,149.60 271.37,-49.87 500.00,49.85 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>
         </section>
     </main>
-
     <footer>
-       Copyright pagename&copy
-       <script>
-             document.write(new Date().getFullYear())
-       </script> 
+        Copyright HelloWorld&copy
+        <script>
+            document.write(new Date().getFullYear())
+        </script>
     </footer>
 </body>
+
 </html>
