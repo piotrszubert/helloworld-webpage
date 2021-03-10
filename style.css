@@ -90,6 +90,7 @@ footer {
 }
 
 .landing .wrapper h1 {
+  text-align: center;
   margin-top: 10vh;
   color: #fff;
   font-size: 5rem;
@@ -103,7 +104,7 @@ footer {
   color: #7D26CD;
   font-weight: 600;
   font-size: 1.3rem;
-  margin-top: 15vh;
+  margin-top: 10vh;
   cursor: pointer;
   -webkit-transition: .5s .2s;
   transition: .5s .2s;
@@ -114,8 +115,58 @@ footer {
   letter-spacing: 2px;
 }
 
+.landing .svg-wrapper {
+  height: 250px;
+  width: 250px;
+}
+
 .info {
   margin-top: -1px;
-  height: 98vh;
+  height: 100vh;
+}
+
+.info .wrapper {
+  width: 90vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.info .wrapper .info-left {
+  color: #fff;
+  text-align: center;
+  max-height: 400px;
+}
+
+.info .wrapper .info-middle {
+  color: #fff;
+  text-align: center;
+  max-height: 400px;
+}
+
+.info .wrapper .info-right {
+  color: #fff;
+  text-align: center;
+  max-height: 400px;
+}
+
+.info .svg-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 250px;
+  width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .landing .wrapper h1 {
+    font-size: 3rem;
+  }
+  .svg-wrapper {
+    height: 150px;
+    width: 150px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
