@@ -240,4 +240,25 @@ footer .social ul li object:hover {
     margin-top: 10px;
   }
 }
+
+.about {
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .text {
+  padding: 20px;
+  color: #fff;
+  font-size: 18px;
+  width: 50%;
+  background-color: #0088ff;
+  height: 60%;
+  border-radius: 20px;
+  margin-top: 40px;
+}
 /*# sourceMappingURL=style.css.map */

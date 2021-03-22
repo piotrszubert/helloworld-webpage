@@ -220,3 +220,27 @@ footer {
 
 }
     
+
+
+
+
+
+
+
+
+
+.about {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+
+    .text {
+        padding: 20px;
+        color: #fff;
+        font-size: 18px;
+        width: 50%;background-color: $first-color;
+        height: 60%;
+        border-radius: 20px;
+        margin-top: 40px;
+    }
+}
