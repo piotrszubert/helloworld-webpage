@@ -56,8 +56,50 @@ main {
 
 footer {
   background-color: #0088ff;
-  height: 5vh;
+  height: 15vh;
   text-align: end;
+}
+
+footer .social ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .social ul li {
+  margin-left: 2px;
+}
+
+footer .social ul li a {
+  padding: 20px;
+}
+
+footer .social ul li .container {
+  padding: 20px;
+  cursor: pointer;
+  background-color: royalblue;
+}
+
+footer .social ul li object {
+  padding: 14px;
+  width: 90px;
+  height: 60px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+footer .social ul li object:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .wave {
@@ -177,7 +219,7 @@ footer {
   width: 350px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   .landing .wrapper h1 {
     font-size: 3rem;
   }

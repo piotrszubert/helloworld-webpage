@@ -47,8 +47,46 @@ main {
 
 footer {
     background-color: $first-color;
-    height: 5vh;
+    height: 15vh;
     text-align: end;
+
+
+    
+.social {
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        li {
+            margin-left: 2px;
+
+            a {
+                padding: 20px;
+            }
+
+        .container{
+            padding: 20px;
+            cursor: pointer;
+            background-color: royalblue;
+        }
+    
+        object {
+            padding: 14px;
+            width: 90px;
+            height: 60px;
+            transition: .4s;
+            filter: invert(1);
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+    }
+}
 }
 
 .wave {
@@ -153,7 +191,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
 .landing{
     .wrapper{
         h1 {
