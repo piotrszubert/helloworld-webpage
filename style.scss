@@ -9,6 +9,10 @@ $second-color: #7D26CD;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+
+    //fancy scrollbar
+    scrollbar-color: $first-color $second-color;
+   // scrollbar-width: thin;
 }
 
 nav {
@@ -49,6 +53,7 @@ footer {
     background-color: $first-color;
     height: 15vh;
     text-align: end;
+    color: #fff;
 
 
     
@@ -66,12 +71,6 @@ footer {
             a {
                 padding: 20px;
             }
-
-        .container{
-            padding: 20px;
-            cursor: pointer;
-            background-color: royalblue;
-        }
     
         object {
             padding: 14px;
@@ -79,9 +78,10 @@ footer {
             height: 60px;
             transition: .4s;
             filter: invert(1);
+            cursor: pointer;
 
             &:hover {
-                transform: scale(1.2);
+                transform: scaleY(10px);
             }
         }
     }

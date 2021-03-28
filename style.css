@@ -6,6 +6,7 @@
           box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
+  scrollbar-color: #0088ff #7D26CD;
 }
 
 nav {
@@ -58,6 +59,7 @@ footer {
   background-color: #0088ff;
   height: 15vh;
   text-align: end;
+  color: #fff;
 }
 
 footer .social ul {
@@ -81,12 +83,6 @@ footer .social ul li a {
   padding: 20px;
 }
 
-footer .social ul li .container {
-  padding: 20px;
-  cursor: pointer;
-  background-color: royalblue;
-}
-
 footer .social ul li object {
   padding: 14px;
   width: 90px;
@@ -95,11 +91,12 @@ footer .social ul li object {
   transition: .4s;
   -webkit-filter: invert(1);
           filter: invert(1);
+  cursor: pointer;
 }
 
 footer .social ul li object:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scaleY(10px);
+          transform: scaleY(10px);
 }
 
 .wave {
